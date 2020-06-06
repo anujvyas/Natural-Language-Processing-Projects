@@ -1,4 +1,4 @@
-# Movie Genre Prediction
+# Movie Genre Classification
 
 • If you want to view the deployed model, then go to following links mention below:<br />
 Repository Link: _https://github.com/anujvyas/Movie-Genre-Prediction-Deployment_<br />
