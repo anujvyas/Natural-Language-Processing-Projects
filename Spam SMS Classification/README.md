@@ -1,5 +1,3 @@
-# Spam SMS Classification
-
 ![SSC](readme-resources/spam-sms-banner.png)
 
 ## Deployed Web App
