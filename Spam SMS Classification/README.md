@@ -20,7 +20,8 @@
 • Handling imbalanced dataset using Oversampling
 ![SpamVsHam](readme-resources/svh.png)<br/>
 • **Creating new features** from existing features e.g. **word_count, contains_currency_symbol, contains_numbers**, etc.<br/>
-![jih](readme-resources/jih.png)<br/>
+![word_count](readme-resources/word_count.png)<br/>
+![currency_numbers](readme-resources/currency_numbers.png)<br/>
 • Trimming columns i.e. **Trimming features having more than 10 categories to reduce the dimensionality**<br/>
 • **Handling ordinal and nominal categorical features**<br/>
 • Feature Selection using **information gain (mutual_info_regression) and correlation matrix**<br/>
