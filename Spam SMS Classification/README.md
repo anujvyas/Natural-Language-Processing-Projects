@@ -1,4 +1,4 @@
-![DSSP](readme-resources/data-scientist-salary-banner.png)
+![SSMS](readme-resources/spam-sms-banner.png)
 ![Dataset](https://img.shields.io/badge/Dataset-Ken_Jee-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![library](https://img.shields.io/badge/Library-sklearn-orange.svg)
 
 ## Project Overview
