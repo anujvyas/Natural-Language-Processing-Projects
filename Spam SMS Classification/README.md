@@ -12,17 +12,14 @@
 • Packages: **pandas, numpy, sklearn, matplotlib, seaborn, nltk.**<br/>
 • Dataset by **UCI Machine Learing on Kaggle**: https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
-## Exploratory Data Analysis (EDA) and Data Cleaning
-• **Removed unwanted columns**: 'Unnamed: 0'<br/>
-• **Plotted bargraphs and countplots** for numerical and categorical features respectively for EDA<br/>
-• **Numerical Features** (Rating, Founded): **Replaced NaN or -1 values with mean or meadian based on their distribution**<br/>
-![SpamVsHam](readme-resources/svh.png)<br/>
-• **Categorical Features: Replaced NaN or -1 values with 'Other'/'Unknown' category**<br/>
-• **Removed unwanted alphabet/special characters from Salary feature**<br/>
-• **Converted the Salary column into one scale** i.e from (per hour, per annum, employer provided salary) to (per annum)
+## Exploratory Data Analysis (EDA)
+• **Exploring NaN values** in dataset
+• **Plotted countplot** for SMS labels Spam vs. Ham<br/>
 
 ## Feature Engineering
-• **Creating new features** from existing features e.g. **job_in_headquaters from (job_location, headquarters)**, etc.<br/>
+• Handling imbalanced dataset using Oversampling
+![SpamVsHam](readme-resources/svh.png)<br/>
+• **Creating new features** from existing features e.g. **word_count, contains_currency_symbol, contains_numbers**, etc.<br/>
 ![jih](readme-resources/jih.png)<br/>
 • Trimming columns i.e. **Trimming features having more than 10 categories to reduce the dimensionality**<br/>
 • **Handling ordinal and nominal categorical features**<br/>
@@ -30,6 +27,8 @@
 ![infogain](readme-resources/infogain.png)<br/>
 ![corr1](readme-resources/corr1.png)<br/>
 • Feature Scaling using **StandardScalar**
+
+## Data Cleaning
 
 ## Model Building and Evaluation
 Metric: Negative Root Mean Squared Error (NRMSE)<br/>
