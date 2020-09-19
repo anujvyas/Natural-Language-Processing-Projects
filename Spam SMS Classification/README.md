@@ -13,23 +13,23 @@
 • Dataset by **UCI Machine Learing on Kaggle**: https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
 ## Exploratory Data Analysis (EDA)
-• **Exploring NaN values** in dataset
-• **Plotted countplot** for SMS labels Spam vs. Ham<br/>
+• **Exploring NaN values** in dataset<br/>
+• **Plotted countplot** for SMS labels Spam vs. Ham
 
 ## Feature Engineering
-• Handling imbalanced dataset using Oversampling
+• Handling imbalanced dataset using Oversampling<br/>
 ![SpamVsHam](readme-resources/svh.png)<br/>
 • **Creating new features** from existing features e.g. **word_count, contains_currency_symbol, contains_numbers**, etc.<br/>
 ![word_count](readme-resources/word_count.png)<br/>
-![currency_numbers](readme-resources/currency_numbers.png)<br/>
+![currency_numbers](readme-resources/currency_numbers.png)
 
 ## Data Cleaning
-• Removing special character and numbers using regular expression
-• Converting the entire sms into lower case
-• Tokenizing the sms by words
-• Removing the stop words
-• Lemmatizing the words
-• Joining the lemmatized words
+• Removing special character and numbers using regular expression<br/>
+• Converting the entire sms into lower case<br/>
+• Tokenizing the sms by words<br/>
+• Removing the stop words<br/>
+• Lemmatizing the words<br/>
+• Joining the lemmatized words<br/>
 • Building a corpus of messages
 
 ## Model Building and Evaluation
