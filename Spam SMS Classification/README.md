@@ -22,23 +22,24 @@
 • **Creating new features** from existing features e.g. **word_count, contains_currency_symbol, contains_numbers**, etc.<br/>
 ![word_count](readme-resources/word_count.png)<br/>
 ![currency_numbers](readme-resources/currency_numbers.png)<br/>
-• Trimming columns i.e. **Trimming features having more than 10 categories to reduce the dimensionality**<br/>
-• **Handling ordinal and nominal categorical features**<br/>
-• Feature Selection using **information gain (mutual_info_regression) and correlation matrix**<br/>
-![infogain](readme-resources/infogain.png)<br/>
-![corr1](readme-resources/corr1.png)<br/>
-• Feature Scaling using **StandardScalar**
 
 ## Data Cleaning
+• Removing special character and numbers using regular expression
+• Converting the entire sms into lower case
+• Tokenizing the sms by words
+• Removing the stop words
+• Lemmatizing the words
+• Joining the lemmatized words
+• Building a corpus of messages
 
 ## Model Building and Evaluation
-Metric: Negative Root Mean Squared Error (NRMSE)<br/>
-• Multiple Linear Regression: -27.523<br/>
-• Lasso Regression: -27.993<br/>
-• **Random Forest: -17.637**<br/>
-• Gradient Boosting: -24.429<br/>
-• Voting (Random Forest + Gradient Boosting): -19.136<br/>
-_**Note: Evaluation scores are obtained using cross validation.**_
+**Metric: F1-Score**<br/>
+• Multinomial Naive Bayes: 0.943<br/>
+• Decision Tree: 0.98<br/>
+• **Random Forest: 0.994**<br/>
+• Voting (Decision Tree + Multinomial Naive Bayes): 0.98<br/>
+_**Note: Evaluation scores are obtained using cross validation.**_<br/>
+![matrix](readme-resources/cm.png)
 
 ## Model Prediction
 ![Prediction](readme-resources/prediction.PNG)
