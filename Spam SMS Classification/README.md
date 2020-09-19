@@ -16,7 +16,7 @@
 • **Removed unwanted columns**: 'Unnamed: 0'<br/>
 • **Plotted bargraphs and countplots** for numerical and categorical features respectively for EDA<br/>
 • **Numerical Features** (Rating, Founded): **Replaced NaN or -1 values with mean or meadian based on their distribution**<br/>
-![rating](readme-resources/rating.png) ![rating1](readme-resources/rating1.png)<br/>
+![SpamVsHam](readme-resources/svh.png)<br/>
 • **Categorical Features: Replaced NaN or -1 values with 'Other'/'Unknown' category**<br/>
 • **Removed unwanted alphabet/special characters from Salary feature**<br/>
 • **Converted the Salary column into one scale** i.e from (per hour, per annum, employer provided salary) to (per annum)
