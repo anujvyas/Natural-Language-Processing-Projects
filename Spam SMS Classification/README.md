@@ -1,5 +1,5 @@
 ![SSMS](readme-resources/spam-sms-banner.png)
-![Dataset](https://img.shields.io/badge/Dataset-Ken_Jee-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![library](https://img.shields.io/badge/Library-sklearn-orange.svg)
+![Dataset](https://img.shields.io/badge/Dataset-Ken_Jee-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![library](https://img.shields.io/badge/Library-nltk,sklearn-orange.svg)
 
 ## Project Overview
 • Created a machine learning model that **estimates salary of data scientist based on the features like rating, company_founded, etc.**<br/>
