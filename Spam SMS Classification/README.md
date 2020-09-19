@@ -2,15 +2,15 @@
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![library](https://img.shields.io/badge/Library-nltk,_sklearn-orange.svg)
 
 ## Project Overview
-• Created a machine learning model that **estimates salary of data scientist based on the features like rating, company_founded, etc.**<br/>
-• Engineered features from the text of each job description to quantify the value companies put on python, excel, tableau and sql
+• Created a machine learning model that **detects/classifies a SMS based on the SMS itself using Natural Language Processing.**<br/>
+• **Engineered features like word_count, contains_currency_symbol, and contains_number** from the text SMS.
 
 ## How will this project help?
-• This project **helps data scientist/analyst to negotiate their income for an existing or a new job**
+• This project **helps in filtering/cleaning the SMS from the phone.**
 
 ## Resources Used
-• Packages: **pandas, numpy, sklearn, matplotlib, seaborn.**<br/>
-• Dataset by **Ken Jee**: https://github.com/PlayingNumbers/ds_salary_proj
+• Packages: **pandas, numpy, sklearn, matplotlib, seaborn, nltk.**<br/>
+• Dataset by **UCI Machine Learing on Kaggle**: https://www.kaggle.com/uciml/sms-spam-collection-dataset
 
 ## Exploratory Data Analysis (EDA) and Data Cleaning
 • **Removed unwanted columns**: 'Unnamed: 0'<br/>
