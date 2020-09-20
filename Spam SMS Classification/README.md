@@ -2,7 +2,7 @@
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![library](https://img.shields.io/badge/Library-nltk,_sklearn-orange.svg)
 
 ## Project Overview
-• Created a machine learning model that **detects/classifies a SMS based on the textual data using Natural Language Processing.**<br/>
+• Created a machine learning model that **detects/classifies a SMS into SPAM or HAM (normal) based on the textual data using Natural Language Processing.**<br/>
 • **Engineered features like word_count, contains_currency_symbol, and contains_number** from the text SMS.
 
 ## How will this project help?
@@ -38,8 +38,14 @@
 • Decision Tree: 0.98<br/>
 • **Random Forest: 0.994**<br/>
 • Voting (Decision Tree + Multinomial Naive Bayes): 0.98<br/>
-_**Note: Evaluation scores are obtained using cross validation.**_<br/>
 ![matrix](readme-resources/cm.png)
+_**Note: Evaluation scores are obtained using cross validation.**_<br/>
 
 ## Model Prediction
 ![Prediction](readme-resources/prediction.PNG)
+
+## Model Deployment
+• Repository Link: https://github.com/anujvyas/Spam-SMS-Classifier-Deployment<br />
+• Web App Link: https://spam-sms-detector.herokuapp.com/<br/>
+
+_**Do ⭐ the repository, if it helped you in anyway.**_
