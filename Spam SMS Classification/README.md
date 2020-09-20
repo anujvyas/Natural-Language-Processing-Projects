@@ -38,8 +38,8 @@
 • Decision Tree: 0.98<br/>
 • **Random Forest: 0.994**<br/>
 • Voting (Decision Tree + Multinomial Naive Bayes): 0.98<br/>
-![matrix](readme-resources/cm.png)
-_**Note: Evaluation scores are obtained using cross validation.**_<br/>
+![matrix](readme-resources/cm.png)<br/>
+_**Note: Evaluation scores are obtained using cross validation.**_
 
 ## Model Prediction
 ![Prediction](readme-resources/prediction.PNG)
