@@ -12,3 +12,14 @@
 • Datasets are provided in each of the folders above, and the solutions to the problem statements as well.
 
 **Do ⭐ the repository, if it helped you in anyway.**
+
+
+## Por qué este repositorio?
+• El propósito principal de hacer este repositorio es mantener todos mis proyectos de procesamiento de lenguaje natural en un solo lugar, manteniendo limpio mi GitHub!<br/>
+• Se ve bien, verdad?
+
+## Visión de conjunto
+• Este repositorio consta de todos mis proyectos de procesamiento de lenguaje natural.<br/>
+• Los conjuntos de datos se proporcionan en cada una de las carpetas anteriores, así como las soluciones a los enunciados del problema.
+
+**Haz ⭐ el repositorio, si te ayudó de todos modos.**
